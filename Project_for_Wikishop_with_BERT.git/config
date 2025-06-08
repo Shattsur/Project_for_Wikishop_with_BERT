@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://gitlab.com/shattsur1987-group/Project_for_Wikishop_with_BERT.git
+	tagOpt = --no-tags
+	fetch = +refs/*:refs/*
+	mirror = true
+[remote "github"]
+	url = https://github.com/Shattsur/Project_for_Wikishop_with_BERT.git
+	fetch = +refs/heads/*:refs/remotes/github/*
